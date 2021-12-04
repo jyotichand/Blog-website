@@ -74,7 +74,7 @@ app.get("/contact", function(req, res){
   res.render("contact", {contactContent: contactContent});
 });
 
-
+  // console.log("hello");
 app.listen(3030, function() {
   console.log("Server started on port 3030");
 });
